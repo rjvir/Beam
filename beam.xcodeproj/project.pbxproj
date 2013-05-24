@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71A0820C174A021B00B4EA5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A0820B174A021B00B4EA5D /* UIKit.framework */; };
+		71A0820E174A021B00B4EA5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A0820D174A021B00B4EA5D /* Foundation.framework */; };
+		71A08210174A021B00B4EA5D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A0820F174A021B00B4EA5D /* CoreGraphics.framework */; };
+		71A08216174A021B00B4EA5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71A08214174A021B00B4EA5D /* InfoPlist.strings */; };
+		71A08218174A021B00B4EA5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A08217174A021B00B4EA5D /* main.m */; };
+		71A0821C174A021B00B4EA5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A0821B174A021B00B4EA5D /* AppDelegate.m */; };
+		71A0821E174A021B00B4EA5D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A0821D174A021B00B4EA5D /* Default.png */; };
+		71A08220174A021B00B4EA5D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A0821F174A021B00B4EA5D /* Default@2x.png */; };
+		71A08222174A021C00B4EA5D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A08221174A021B00B4EA5D /* Default-568h@2x.png */; };
+		71A08225174A021C00B4EA5D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A08223174A021C00B4EA5D /* MainStoryboard.storyboard */; };
+		71A08228174A021C00B4EA5D /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A08227174A021C00B4EA5D /* MasterViewController.m */; };
+		71A0822B174A021C00B4EA5D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A0822A174A021C00B4EA5D /* DetailViewController.m */; };
+		71A08232174A039500B4EA5D /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A08231174A039500B4EA5D /* Firebase.framework */; };
+		71A08234174A03DF00B4EA5D /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A08233174A03DF00B4EA5D /* libicucore.dylib */; };
+		71A08236174A03E600B4EA5D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A08235174A03E600B4EA5D /* CFNetwork.framework */; };
+		71A08238174A03ED00B4EA5D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A08237174A03ED00B4EA5D /* Security.framework */; };
+		71A08257174D95D100B4EA5D /* bubbleMine2.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A08241174D95D100B4EA5D /* bubbleMine2.png */; };
+		71A08258174D95D100B4EA5D /* bubbleMine2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A08242174D95D100B4EA5D /* bubbleMine2@2x.png */; };
+		71A08259174D95D100B4EA5D /* bubbleSomeone2.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A08243174D95D100B4EA5D /* bubbleSomeone2.png */; };
+		71A0825A174D95D100B4EA5D /* bubbleSomeone2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A08244174D95D100B4EA5D /* bubbleSomeone2@2x.png */; };
+		71A0825B174D95D100B4EA5D /* missingAvatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A08245174D95D100B4EA5D /* missingAvatar.png */; };
+		71A0825C174D95D100B4EA5D /* missingAvatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A08246174D95D100B4EA5D /* missingAvatar@2x.png */; };
+		71A0825D174D95D100B4EA5D /* typingMine.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A08247174D95D100B4EA5D /* typingMine.png */; };
+		71A0825E174D95D100B4EA5D /* typingMine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A08248174D95D100B4EA5D /* typingMine@2x.png */; };
+		71A0825F174D95D100B4EA5D /* typingSomeone.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A08249174D95D100B4EA5D /* typingSomeone.png */; };
+		71A08260174D95D100B4EA5D /* typingSomeone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A0824A174D95D100B4EA5D /* typingSomeone@2x.png */; };
+		71A08261174D95D100B4EA5D /* NSBubbleData.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A0824D174D95D100B4EA5D /* NSBubbleData.m */; };
+		71A08262174D95D100B4EA5D /* UIBubbleHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A0824F174D95D100B4EA5D /* UIBubbleHeaderTableViewCell.m */; };
+		71A08263174D95D100B4EA5D /* UIBubbleTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A08251174D95D100B4EA5D /* UIBubbleTableView.m */; };
+		71A08264174D95D100B4EA5D /* UIBubbleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A08253174D95D100B4EA5D /* UIBubbleTableViewCell.m */; };
+		71A08265174D95D100B4EA5D /* UIBubbleTypingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A08256174D95D100B4EA5D /* UIBubbleTypingTableViewCell.m */; };
+		71A08268174EA55300B4EA5D /* bubbleMine3.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A08266174EA55200B4EA5D /* bubbleMine3.png */; };
+		71A08269174EA55300B4EA5D /* bubbleMine3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A08267174EA55200B4EA5D /* bubbleMine3@2x.png */; };
+		71A0826C174EACF300B4EA5D /* bubbleSomeone3.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A0826A174EACF300B4EA5D /* bubbleSomeone3.png */; };
+		71A0826D174EACF300B4EA5D /* bubbleSomeone3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A0826B174EACF300B4EA5D /* bubbleSomeone3@2x.png */; };
+		71A08270174EB24000B4EA5D /* bubbleMine4.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A0826E174EB23F00B4EA5D /* bubbleMine4.png */; };
+		71A08271174EB24000B4EA5D /* bubbleMine4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A0826F174EB24000B4EA5D /* bubbleMine4@2x.png */; };
+		71A08276174EB7C900B4EA5D /* bubbleMine.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A08272174EB7C600B4EA5D /* bubbleMine.png */; };
+		71A08277174EB7C900B4EA5D /* bubbleMine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A08273174EB7C700B4EA5D /* bubbleMine@2x.png */; };
+		71A08278174EB7C900B4EA5D /* bubbleSomeone4.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A08274174EB7C700B4EA5D /* bubbleSomeone4.png */; };
+		71A08279174EB7C900B4EA5D /* bubbleSomeone4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A08275174EB7C800B4EA5D /* bubbleSomeone4@2x.png */; };
+		71A0827C174EB8D900B4EA5D /* bubbleSomeone.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A0827A174EB8D800B4EA5D /* bubbleSomeone.png */; };
+		71A0827D174EB8D900B4EA5D /* bubbleSomeone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71A0827B174EB8D800B4EA5D /* bubbleSomeone@2x.png */; };
+		71A08283174EF0DC00B4EA5D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A08282174EF0DB00B4EA5D /* LoginViewController.m */; };
+		71A08285174EFA7200B4EA5D /* FirebaseAuthClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A08284174EFA7200B4EA5D /* FirebaseAuthClient.framework */; };
+		71A08287174EFA9000B4EA5D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A08286174EFA8F00B4EA5D /* Social.framework */; };
+		71A08289174EFB6000B4EA5D /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A08288174EFB6000B4EA5D /* Accounts.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71A08208174A021B00B4EA5D /* beam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A0820B174A021B00B4EA5D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		71A0820D174A021B00B4EA5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		71A0820F174A021B00B4EA5D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		71A08213174A021B00B4EA5D /* beam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "beam-Info.plist"; sourceTree = "<group>"; };
+		71A08215174A021B00B4EA5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		71A08217174A021B00B4EA5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71A08219174A021B00B4EA5D /* beam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "beam-Prefix.pch"; sourceTree = "<group>"; };
+		71A0821A174A021B00B4EA5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71A0821B174A021B00B4EA5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71A0821D174A021B00B4EA5D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		71A0821F174A021B00B4EA5D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		71A08221174A021B00B4EA5D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		71A08224174A021C00B4EA5D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		71A08226174A021C00B4EA5D /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		71A08227174A021C00B4EA5D /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		71A08229174A021C00B4EA5D /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		71A0822A174A021C00B4EA5D /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		71A08231174A039500B4EA5D /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		71A08233174A03DF00B4EA5D /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		71A08235174A03E600B4EA5D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		71A08237174A03ED00B4EA5D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		71A08241174D95D100B4EA5D /* bubbleMine2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleMine2.png; sourceTree = "<group>"; };
+		71A08242174D95D100B4EA5D /* bubbleMine2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubbleMine2@2x.png"; sourceTree = "<group>"; };
+		71A08243174D95D100B4EA5D /* bubbleSomeone2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleSomeone2.png; sourceTree = "<group>"; };
+		71A08244174D95D100B4EA5D /* bubbleSomeone2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubbleSomeone2@2x.png"; sourceTree = "<group>"; };
+		71A08245174D95D100B4EA5D /* missingAvatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = missingAvatar.png; sourceTree = "<group>"; };
+		71A08246174D95D100B4EA5D /* missingAvatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "missingAvatar@2x.png"; sourceTree = "<group>"; };
+		71A08247174D95D100B4EA5D /* typingMine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = typingMine.png; sourceTree = "<group>"; };
+		71A08248174D95D100B4EA5D /* typingMine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "typingMine@2x.png"; sourceTree = "<group>"; };
+		71A08249174D95D100B4EA5D /* typingSomeone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = typingSomeone.png; sourceTree = "<group>"; };
+		71A0824A174D95D100B4EA5D /* typingSomeone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "typingSomeone@2x.png"; sourceTree = "<group>"; };
+		71A0824C174D95D100B4EA5D /* NSBubbleData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSBubbleData.h; sourceTree = "<group>"; };
+		71A0824D174D95D100B4EA5D /* NSBubbleData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSBubbleData.m; sourceTree = "<group>"; };
+		71A0824E174D95D100B4EA5D /* UIBubbleHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBubbleHeaderTableViewCell.h; sourceTree = "<group>"; };
+		71A0824F174D95D100B4EA5D /* UIBubbleHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBubbleHeaderTableViewCell.m; sourceTree = "<group>"; };
+		71A08250174D95D100B4EA5D /* UIBubbleTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBubbleTableView.h; sourceTree = "<group>"; };
+		71A08251174D95D100B4EA5D /* UIBubbleTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBubbleTableView.m; sourceTree = "<group>"; };
+		71A08252174D95D100B4EA5D /* UIBubbleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBubbleTableViewCell.h; sourceTree = "<group>"; };
+		71A08253174D95D100B4EA5D /* UIBubbleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBubbleTableViewCell.m; sourceTree = "<group>"; };
+		71A08254174D95D100B4EA5D /* UIBubbleTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBubbleTableViewDataSource.h; sourceTree = "<group>"; };
+		71A08255174D95D100B4EA5D /* UIBubbleTypingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBubbleTypingTableViewCell.h; sourceTree = "<group>"; };
+		71A08256174D95D100B4EA5D /* UIBubbleTypingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBubbleTypingTableViewCell.m; sourceTree = "<group>"; };
+		71A08266174EA55200B4EA5D /* bubbleMine3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleMine3.png; sourceTree = "<group>"; };
+		71A08267174EA55200B4EA5D /* bubbleMine3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubbleMine3@2x.png"; sourceTree = "<group>"; };
+		71A0826A174EACF300B4EA5D /* bubbleSomeone3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleSomeone3.png; sourceTree = "<group>"; };
+		71A0826B174EACF300B4EA5D /* bubbleSomeone3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubbleSomeone3@2x.png"; sourceTree = "<group>"; };
+		71A0826E174EB23F00B4EA5D /* bubbleMine4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleMine4.png; sourceTree = "<group>"; };
+		71A0826F174EB24000B4EA5D /* bubbleMine4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubbleMine4@2x.png"; sourceTree = "<group>"; };
+		71A08272174EB7C600B4EA5D /* bubbleMine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleMine.png; sourceTree = "<group>"; };
+		71A08273174EB7C700B4EA5D /* bubbleMine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubbleMine@2x.png"; sourceTree = "<group>"; };
+		71A08274174EB7C700B4EA5D /* bubbleSomeone4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleSomeone4.png; sourceTree = "<group>"; };
+		71A08275174EB7C800B4EA5D /* bubbleSomeone4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubbleSomeone4@2x.png"; sourceTree = "<group>"; };
+		71A0827A174EB8D800B4EA5D /* bubbleSomeone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleSomeone.png; sourceTree = "<group>"; };
+		71A0827B174EB8D800B4EA5D /* bubbleSomeone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubbleSomeone@2x.png"; sourceTree = "<group>"; };
+		71A08281174EF0DA00B4EA5D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		71A08282174EF0DB00B4EA5D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		71A08284174EFA7200B4EA5D /* FirebaseAuthClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAuthClient.framework; sourceTree = "<group>"; };
+		71A08286174EFA8F00B4EA5D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		71A08288174EFB6000B4EA5D /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71A08205174A021B00B4EA5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A08289174EFB6000B4EA5D /* Accounts.framework in Frameworks */,
+				71A08287174EFA9000B4EA5D /* Social.framework in Frameworks */,
+				71A08238174A03ED00B4EA5D /* Security.framework in Frameworks */,
+				71A08236174A03E600B4EA5D /* CFNetwork.framework in Frameworks */,
+				71A08234174A03DF00B4EA5D /* libicucore.dylib in Frameworks */,
+				71A0820C174A021B00B4EA5D /* UIKit.framework in Frameworks */,
+				71A0820E174A021B00B4EA5D /* Foundation.framework in Frameworks */,
+				71A08210174A021B00B4EA5D /* CoreGraphics.framework in Frameworks */,
+				71A08232174A039500B4EA5D /* Firebase.framework in Frameworks */,
+				71A08285174EFA7200B4EA5D /* FirebaseAuthClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71A081FF174A021B00B4EA5D = {
+			isa = PBXGroup;
+			children = (
+				71A08288174EFB6000B4EA5D /* Accounts.framework */,
+				71A08233174A03DF00B4EA5D /* libicucore.dylib */,
+				71A08211174A021B00B4EA5D /* beam */,
+				71A0820A174A021B00B4EA5D /* Frameworks */,
+				71A08209174A021B00B4EA5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71A08209174A021B00B4EA5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71A08208174A021B00B4EA5D /* beam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71A0820A174A021B00B4EA5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71A08286174EFA8F00B4EA5D /* Social.framework */,
+				71A08237174A03ED00B4EA5D /* Security.framework */,
+				71A08235174A03E600B4EA5D /* CFNetwork.framework */,
+				71A08284174EFA7200B4EA5D /* FirebaseAuthClient.framework */,
+				71A08231174A039500B4EA5D /* Firebase.framework */,
+				71A0820B174A021B00B4EA5D /* UIKit.framework */,
+				71A0820D174A021B00B4EA5D /* Foundation.framework */,
+				71A0820F174A021B00B4EA5D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71A08211174A021B00B4EA5D /* beam */ = {
+			isa = PBXGroup;
+			children = (
+				71A08240174D95D100B4EA5D /* images */,
+				71A0824B174D95D100B4EA5D /* src */,
+				71A0821A174A021B00B4EA5D /* AppDelegate.h */,
+				71A0821B174A021B00B4EA5D /* AppDelegate.m */,
+				71A08223174A021C00B4EA5D /* MainStoryboard.storyboard */,
+				71A08281174EF0DA00B4EA5D /* LoginViewController.h */,
+				71A08282174EF0DB00B4EA5D /* LoginViewController.m */,
+				71A08226174A021C00B4EA5D /* MasterViewController.h */,
+				71A08227174A021C00B4EA5D /* MasterViewController.m */,
+				71A08229174A021C00B4EA5D /* DetailViewController.h */,
+				71A0822A174A021C00B4EA5D /* DetailViewController.m */,
+				71A08212174A021B00B4EA5D /* Supporting Files */,
+			);
+			path = beam;
+			sourceTree = "<group>";
+		};
+		71A08212174A021B00B4EA5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71A08213174A021B00B4EA5D /* beam-Info.plist */,
+				71A08214174A021B00B4EA5D /* InfoPlist.strings */,
+				71A08217174A021B00B4EA5D /* main.m */,
+				71A08219174A021B00B4EA5D /* beam-Prefix.pch */,
+				71A0821D174A021B00B4EA5D /* Default.png */,
+				71A0821F174A021B00B4EA5D /* Default@2x.png */,
+				71A08221174A021B00B4EA5D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71A08240174D95D100B4EA5D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				71A0827A174EB8D800B4EA5D /* bubbleSomeone.png */,
+				71A0827B174EB8D800B4EA5D /* bubbleSomeone@2x.png */,
+				71A08272174EB7C600B4EA5D /* bubbleMine.png */,
+				71A08273174EB7C700B4EA5D /* bubbleMine@2x.png */,
+				71A08274174EB7C700B4EA5D /* bubbleSomeone4.png */,
+				71A08275174EB7C800B4EA5D /* bubbleSomeone4@2x.png */,
+				71A0826E174EB23F00B4EA5D /* bubbleMine4.png */,
+				71A0826F174EB24000B4EA5D /* bubbleMine4@2x.png */,
+				71A0826A174EACF300B4EA5D /* bubbleSomeone3.png */,
+				71A0826B174EACF300B4EA5D /* bubbleSomeone3@2x.png */,
+				71A08266174EA55200B4EA5D /* bubbleMine3.png */,
+				71A08267174EA55200B4EA5D /* bubbleMine3@2x.png */,
+				71A08241174D95D100B4EA5D /* bubbleMine2.png */,
+				71A08242174D95D100B4EA5D /* bubbleMine2@2x.png */,
+				71A08243174D95D100B4EA5D /* bubbleSomeone2.png */,
+				71A08244174D95D100B4EA5D /* bubbleSomeone2@2x.png */,
+				71A08245174D95D100B4EA5D /* missingAvatar.png */,
+				71A08246174D95D100B4EA5D /* missingAvatar@2x.png */,
+				71A08247174D95D100B4EA5D /* typingMine.png */,
+				71A08248174D95D100B4EA5D /* typingMine@2x.png */,
+				71A08249174D95D100B4EA5D /* typingSomeone.png */,
+				71A0824A174D95D100B4EA5D /* typingSomeone@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		71A0824B174D95D100B4EA5D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				71A0824C174D95D100B4EA5D /* NSBubbleData.h */,
+				71A0824D174D95D100B4EA5D /* NSBubbleData.m */,
+				71A0824E174D95D100B4EA5D /* UIBubbleHeaderTableViewCell.h */,
+				71A0824F174D95D100B4EA5D /* UIBubbleHeaderTableViewCell.m */,
+				71A08250174D95D100B4EA5D /* UIBubbleTableView.h */,
+				71A08251174D95D100B4EA5D /* UIBubbleTableView.m */,
+				71A08252174D95D100B4EA5D /* UIBubbleTableViewCell.h */,
+				71A08253174D95D100B4EA5D /* UIBubbleTableViewCell.m */,
+				71A08254174D95D100B4EA5D /* UIBubbleTableViewDataSource.h */,
+				71A08255174D95D100B4EA5D /* UIBubbleTypingTableViewCell.h */,
+				71A08256174D95D100B4EA5D /* UIBubbleTypingTableViewCell.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71A08207174A021B00B4EA5D /* beam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71A0822E174A021C00B4EA5D /* Build configuration list for PBXNativeTarget "beam" */;
+			buildPhases = (
+				71A08204174A021B00B4EA5D /* Sources */,
+				71A08205174A021B00B4EA5D /* Frameworks */,
+				71A08206174A021B00B4EA5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = beam;
+			productName = beam;
+			productReference = 71A08208174A021B00B4EA5D /* beam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71A08200174A021B00B4EA5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Raj Vir";
+			};
+			buildConfigurationList = 71A08203174A021B00B4EA5D /* Build configuration list for PBXProject "beam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 71A081FF174A021B00B4EA5D;
+			productRefGroup = 71A08209174A021B00B4EA5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71A08207174A021B00B4EA5D /* beam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71A08206174A021B00B4EA5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A08216174A021B00B4EA5D /* InfoPlist.strings in Resources */,
+				71A0821E174A021B00B4EA5D /* Default.png in Resources */,
+				71A08220174A021B00B4EA5D /* Default@2x.png in Resources */,
+				71A08222174A021C00B4EA5D /* Default-568h@2x.png in Resources */,
+				71A08225174A021C00B4EA5D /* MainStoryboard.storyboard in Resources */,
+				71A08257174D95D100B4EA5D /* bubbleMine2.png in Resources */,
+				71A08258174D95D100B4EA5D /* bubbleMine2@2x.png in Resources */,
+				71A08259174D95D100B4EA5D /* bubbleSomeone2.png in Resources */,
+				71A0825A174D95D100B4EA5D /* bubbleSomeone2@2x.png in Resources */,
+				71A0825B174D95D100B4EA5D /* missingAvatar.png in Resources */,
+				71A0825C174D95D100B4EA5D /* missingAvatar@2x.png in Resources */,
+				71A0825D174D95D100B4EA5D /* typingMine.png in Resources */,
+				71A0825E174D95D100B4EA5D /* typingMine@2x.png in Resources */,
+				71A0825F174D95D100B4EA5D /* typingSomeone.png in Resources */,
+				71A08260174D95D100B4EA5D /* typingSomeone@2x.png in Resources */,
+				71A08268174EA55300B4EA5D /* bubbleMine3.png in Resources */,
+				71A08269174EA55300B4EA5D /* bubbleMine3@2x.png in Resources */,
+				71A0826C174EACF300B4EA5D /* bubbleSomeone3.png in Resources */,
+				71A0826D174EACF300B4EA5D /* bubbleSomeone3@2x.png in Resources */,
+				71A08270174EB24000B4EA5D /* bubbleMine4.png in Resources */,
+				71A08271174EB24000B4EA5D /* bubbleMine4@2x.png in Resources */,
+				71A08276174EB7C900B4EA5D /* bubbleMine.png in Resources */,
+				71A08277174EB7C900B4EA5D /* bubbleMine@2x.png in Resources */,
+				71A08278174EB7C900B4EA5D /* bubbleSomeone4.png in Resources */,
+				71A08279174EB7C900B4EA5D /* bubbleSomeone4@2x.png in Resources */,
+				71A0827C174EB8D900B4EA5D /* bubbleSomeone.png in Resources */,
+				71A0827D174EB8D900B4EA5D /* bubbleSomeone@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71A08204174A021B00B4EA5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A08218174A021B00B4EA5D /* main.m in Sources */,
+				71A0821C174A021B00B4EA5D /* AppDelegate.m in Sources */,
+				71A08228174A021C00B4EA5D /* MasterViewController.m in Sources */,
+				71A0822B174A021C00B4EA5D /* DetailViewController.m in Sources */,
+				71A08261174D95D100B4EA5D /* NSBubbleData.m in Sources */,
+				71A08262174D95D100B4EA5D /* UIBubbleHeaderTableViewCell.m in Sources */,
+				71A08263174D95D100B4EA5D /* UIBubbleTableView.m in Sources */,
+				71A08264174D95D100B4EA5D /* UIBubbleTableViewCell.m in Sources */,
+				71A08265174D95D100B4EA5D /* UIBubbleTypingTableViewCell.m in Sources */,
+				71A08283174EF0DC00B4EA5D /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71A08214174A021B00B4EA5D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71A08215174A021B00B4EA5D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		71A08223174A021C00B4EA5D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71A08224174A021C00B4EA5D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71A0822C174A021C00B4EA5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71A0822D174A021C00B4EA5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71A0822F174A021C00B4EA5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "beam/beam-Prefix.pch";
+				INFOPLIST_FILE = "beam/beam-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		71A08230174A021C00B4EA5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "beam/beam-Prefix.pch";
+				INFOPLIST_FILE = "beam/beam-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71A08203174A021B00B4EA5D /* Build configuration list for PBXProject "beam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A0822C174A021C00B4EA5D /* Debug */,
+				71A0822D174A021C00B4EA5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71A0822E174A021C00B4EA5D /* Build configuration list for PBXNativeTarget "beam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A0822F174A021C00B4EA5D /* Debug */,
+				71A08230174A021C00B4EA5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71A08200174A021B00B4EA5D /* Project object */;
+}
